@@ -1,2 +1,2 @@
-# ha-addons
+# ha-homepage
 Home Assistant Addons
