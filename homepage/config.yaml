@@ -1,0 +1,17 @@
+name: "Homepage"
+description: "Homepage"
+version: "0.5"
+slug: "homepage"
+init: false
+arch:
+  - aarch64
+  - amd64
+host_network: true
+envoronment:
+  HOMEPAGE_ALLOWED_HOSTS: "*"
+ports:
+  3000/tcp: 3000
+map:
+  - type: addon_config
+    read_only: false
+    path: /homepage/config
