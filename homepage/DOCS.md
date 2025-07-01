@@ -3,4 +3,4 @@ This is an unofficial Homepage add-on for Home Assistant. A modern, fully static
 # Installation
 The installation is pretty straightforward. Click run, check the logs, wait for it to say  "✓ Ready in ___ms"
 # Configuration
-Homepage is configured using YAML files. These can be found in the addon_configs folder.
+Homepage is configured using YAML files. These can be found in addon_configs/xxxxxxxx_homepage folder. Use another add-on like Studio Code Server to edit the files.
