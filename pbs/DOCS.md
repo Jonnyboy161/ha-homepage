@@ -11,4 +11,5 @@ Please refer to the [Backup Client Usage page](https://pbs.proxmox.com/docs/back
 In progress
 
 ## Known Issues
-Upon starting the add-on, it will attempt to send a backup to your PBS. There is currently not a way to schedule backups outside of using an Automation in Home Assistant.
+-Upon starting the add-on, it will attempt to send a backup to your PBS. There is currently not a way to schedule backups outside of using an Automation in Home Assistant.
+-You have to build the add-on locally. I will be working on pre-building this soon.
