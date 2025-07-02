@@ -1,0 +1,25 @@
+name: "PBC"
+description: "ProxMox Backup Client"
+version: "0.9"
+slug: "ha_pbc"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - i386
+options:
+  server_name: null
+  server_ip: null
+  fingerprint: null
+  datastore: null
+  user_name: null
+  password: null
+schema:
+  server_name: str
+  server_ip: str
+  fingerprint: str
+  datastore: str
+  user_name: str
+  password: str
+map:
+  - type: backup

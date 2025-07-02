@@ -1,0 +1,19 @@
+configuration:
+  server_name:
+    name: Server Name
+    description: The name of your PBS.
+  server_ip:
+    name: Server IP
+    description: The IP address of your PBS.
+  fingerprint:
+    name: Fingerprint
+    description: The fingerprint from your PBS.
+  datastore:
+    name: Datastore Name
+    description: The name of the datastore that you want to backup to on your PBS.
+  user_name:
+    name: User Name
+    description: The user name that you will use to access your PBS.
+  password:
+    name: Password
+    description: The password for your PBS user.
