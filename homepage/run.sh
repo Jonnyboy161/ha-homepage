@@ -1,8 +1,7 @@
 #!/usr/bin/with-contenv bashio
-ls
+
 cd homepage
-echo "in homepage folder ----"
-ls
+
 pnpm install
 pnpm build
 echo "Done"
