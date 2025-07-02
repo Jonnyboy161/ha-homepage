@@ -13,7 +13,7 @@ configuration:
     description: The name of the datastore that you want to backup to on your PBS.
   user_name:
     name: User Name
-    description: The user name that you will use to access your PBS.
+    description: The user name that you will use to access your PBS. (It is highly recommended not to use root for security reasons)
   password:
     name: Password
     description: The password for your PBS user.
