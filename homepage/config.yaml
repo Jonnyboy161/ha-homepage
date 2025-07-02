@@ -1,5 +1,5 @@
 name: "Homepage"
-description: "Homepage"
+description: "Unofficial Homepage Add-on"
 version: "0.9"
 slug: "homepage"
 init: false
