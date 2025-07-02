@@ -4,9 +4,8 @@ version: "0.9"
 slug: "ha_pbc"
 init: false
 arch:
-  - aarch64
   - amd64
-  - i386
+url: "https://github.com/Jonnyboy161/ha-repository/tree/main/pbs"
 options:
   server_name: null
   server_ip: null
