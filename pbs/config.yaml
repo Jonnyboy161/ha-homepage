@@ -1,5 +1,5 @@
 name: "PBC"
-description: "ProxMox Backup Client"
+description: "Unofficial ProxMox Backup Client Add-on"
 version: "0.9"
 slug: "ha_pbc"
 init: false
