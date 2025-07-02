@@ -14,4 +14,4 @@ ports:
 map:
   - type: addon_config
     read_only: false
-    path: /homepage/config
+    path: /homepage
