@@ -1,5 +1,7 @@
 # Home Assistant Add-on: Homepage
-This is an unofficial Homepage add-on for Home Assistant. A modern, fully static, fast, secure fully proxied, highly customizable application dashboard with integrations for over 100 services and translations into multiple languages. Easily configured via YAML files or through docker label discovery.
+This is an unofficial Homepage add-on for Home Assistant. v1.0 now pulls from a prebuilt image to fix having to rebuild the source code every time the add-on is started and to lower the amount of storage space needed for the add-on.
+
+A modern, fully static, fast, secure fully proxied, highly customizable application dashboard with integrations for over 100 services and translations into multiple languages. Easily configured via YAML files or through docker label discovery.
 
 ## Installation
 The installation is pretty quick. It should only take a few seconds to pull the prebuilt image.
