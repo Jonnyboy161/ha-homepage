@@ -4,5 +4,5 @@ This is an unofficial Homepage add-on for Home Assistant. A modern, fully static
 Please visit the Homepage site for information about Homepage specifically: https://gethomepage.dev/
 You can also check out their github: https://github.com/gethomepage/homepage
 
-![Screenshot of a sample Homepage page.](/homepage/sample.png)
+![Screenshot of a sample Homepage page.]([/homepage/sample.png](https://gethomepage.dev/assets/homepage_demo_clip.webp))
 
