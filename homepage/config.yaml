@@ -1,6 +1,6 @@
 name: "Homepage"
 description: "Unofficial Homepage Add-on"
-version: "latest"
+version: "1.0"
 slug: "homepage"
 init: false
 image: "jonnyboy161/homepage"
