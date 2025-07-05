@@ -2,17 +2,13 @@
 This is an unofficial Homepage add-on for Home Assistant. A modern, fully static, fast, secure fully proxied, highly customizable application dashboard with integrations for over 100 services and translations into multiple languages. Easily configured via YAML files or through docker label discovery.
 
 ## Installation
-This add-on builds Homepage from it's source files. It will take a couple of minutes before it is ready after you start it.
-Click START, check the logs, wait for it to say  "✓ Ready in ___ms". 
+The installation is pretty quick. It should only take a few seconds to pull the prebuilt image.
+Click START and check the logs for "✓ Ready in ___ms". 
 
-You should also see a link in the logs for accessing your Homepage. This add-on sets the link to the IP address for your Home Assistant instance.
+You should be able to access Homepage at <your home assistnat IP>:3000. example: 192.168.0.20:3000.
 
 ## Configuration
-The only configuration for the add-on is the port used to access Homepage.
 Homepage itself is configured using YAML files. These can be found in addon_configs/xxxxxxxx_homepage folder. Use another add-on like Studio Code Server or File edotor to edit the necessary files to [configure](https://gethomepage.dev/configs/) your page.
 
-## Upgrading
-This add-on pulls the current Homepage version github repository during it's initial installation. To pull an updated version, you will need to rebuild the add-on.
-
 ## Known Issues
-The source code for Homepage is built every time the add-on is started. Your YAML files for configuring your page should be safe, but you sould back them up to be safe.
+The port that you use to access the page is set to 3000 and it is not currently able to be changed.
