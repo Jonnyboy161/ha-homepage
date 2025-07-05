@@ -10,7 +10,7 @@ Click START and check the logs for "✓ Ready in ___ms".
 You should be able to access Homepage at <your home assistnat IP>:3000. example: 192.168.0.20:3000.
 
 ## Configuration
-Homepage itself is configured using YAML files. These can be found in addon_configs/xxxxxxxx_homepage folder. Use another add-on like Studio Code Server or File edotor to edit the necessary files to [configure](https://gethomepage.dev/configs/) your page.
+Homepage itself is configured using YAML files. These can be found in addon_configs/xxxxxxxx_homepage folder. Use another add-on like Studio Code Server or File editor to edit the necessary files to [configure](https://gethomepage.dev/configs/) your page.
 
 ## Known Issues
 The port that you use to access the page is set to 3000 and it is not currently able to be changed.
